@@ -2,6 +2,7 @@
   /* colors */
   --main-white: #eeeeee;
   --main-dark: #2c3e50;
+  --light-dark: #3a546d;
   --main-green: #1abc9c;
 }
 
@@ -50,4 +51,12 @@ section:nth-child(odd) {
 #portfolio .card {
   background-color: #ba4b63;
   border: none;
+}
+
+/* 
+* Footer
+*/
+.footer_top {
+  background-color: var(--light-dark);
+  color: var(--main-white);
 }
