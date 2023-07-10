@@ -1,0 +1,39 @@
+:root {
+  --main-white: #eeeeee;
+  --main-dark: #2c3e50;
+}
+
+/* 
+# *******************
+#      RESET        *
+# *******************
+*/
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* 
+# *******************
+#      SECTIONS     *
+# *******************
+*/
+
+/* 
+*Main Header
+*/
+
+#main-header {
+  min-height: 80px;
+  background-color: var(--main-dark);
+  color: var(--main-white);
+}
+
+.full-menu ul li {
+  padding: 0 5px;
+}
