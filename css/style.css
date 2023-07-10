@@ -29,7 +29,6 @@ a {
 /* 
 * Main Header
 */
-
 #main-header {
   min-height: 80px;
   background-color: var(--main-dark);
@@ -43,8 +42,15 @@ a {
 /* 
 * Jumbotron
 */
-
 #jumbotron {
   background-color: var(--main-green);
   color: var(--main-white);
+}
+
+/* 
+* Portfolio
+*/
+#portfolio .card {
+  background-color: #ba4b63;
+  border: none;
 }
