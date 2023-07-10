@@ -26,6 +26,11 @@ a {
 # *******************
 */
 
+section:nth-child(odd) {
+  background-color: var(--main-green);
+  color: var(--main-white);
+}
+
 /* 
 * Main Header
 */
@@ -37,14 +42,6 @@ a {
 
 .full-menu ul li {
   padding: 0 5px;
-}
-
-/* 
-* Jumbotron
-*/
-#jumbotron {
-  background-color: var(--main-green);
-  color: var(--main-white);
 }
 
 /* 
