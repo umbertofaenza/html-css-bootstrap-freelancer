@@ -46,4 +46,5 @@ a {
 
 #jumbotron {
   background-color: var(--main-green);
+  color: var(--main-white);
 }
