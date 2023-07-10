@@ -31,10 +31,6 @@ section:nth-child(odd) {
   color: var(--main-white);
 }
 
-section {
-  text-align: center;
-}
-
 /* 
 * Main Header
 */
