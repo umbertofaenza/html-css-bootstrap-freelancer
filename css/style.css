@@ -60,3 +60,9 @@ section:nth-child(odd) {
   background-color: var(--light-dark);
   color: var(--main-white);
 }
+
+.footer_bottom {
+  min-height: 80px;
+  background-color: var(--main-dark);
+  color: var(--main-white);
+}
