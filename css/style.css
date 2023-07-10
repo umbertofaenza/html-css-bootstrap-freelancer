@@ -1,6 +1,8 @@
 :root {
+  /* colors */
   --main-white: #eeeeee;
   --main-dark: #2c3e50;
+  --main-green: #1abc9c;
 }
 
 /* 
@@ -25,7 +27,7 @@ a {
 */
 
 /* 
-*Main Header
+* Main Header
 */
 
 #main-header {
@@ -36,4 +38,12 @@ a {
 
 .full-menu ul li {
   padding: 0 5px;
+}
+
+/* 
+* Jumbotron
+*/
+
+#jumbotron {
+  background-color: var(--main-green);
 }
