@@ -38,11 +38,25 @@ section:nth-child(odd) {
 .ms_navbar {
   background-color: var(--main-dark);
   height: 80px;
-  font-weight: 600;
 }
 
 .ms_toggler {
   border: 1px solid #fff;
+}
+
+/* 
+* Jumbotron
+*/
+#jumbotron img {
+  width: 250px;
+}
+
+#jumbotron h1 {
+  font-size: 2.5rem;
+}
+
+#jumbotron hr {
+  width: 15%;
 }
 
 /* 
