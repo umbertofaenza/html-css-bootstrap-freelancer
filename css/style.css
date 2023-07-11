@@ -35,14 +35,14 @@ section:nth-child(odd) {
 /* 
 * Main Header
 */
-#main-header {
-  min-height: 80px;
+.ms_navbar {
   background-color: var(--main-dark);
-  color: var(--main-white);
+  height: 80px;
+  font-weight: 600;
 }
 
-.full-menu ul li {
-  padding: 0 5px;
+.ms_toggler {
+  border: 1px solid #fff;
 }
 
 /* 
