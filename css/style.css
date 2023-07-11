@@ -68,6 +68,14 @@ section:nth-child(odd) {
 }
 
 /* 
+* Contact
+*/
+#contact form button {
+  background-color: var(--main-green);
+  color: var(--main-white);
+}
+
+/* 
 * Footer
 */
 .footer_top {

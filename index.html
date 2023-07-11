@@ -165,21 +165,37 @@
         <section class="py-4" id="contact">
             <div class="container text-center">
                 <!-- title -->
-                <h2>CONTACT ME</h2>
+                <h2 class="fw-semibold">CONTACT ME</h2>
                 <!-- divider -->
-                <div class="divider">DIVIDER</div>
+                <div class="divider w-100 py-3 d-flex justify-content-center">
+                    <hr class="border rounded border-2 opacity-100">
+                    <i class="fa-solid fa-star fa-2x mx-2"></i>
+                    <hr class="border rounded border-2 opacity-100">
+                </div>
                 <!-- form -->
                 <div class="row d-flex justify-content-center">
-                    <!-- inputs -->
-                    <div class="col-10 d-flex flex-column">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email Address">
-                        <input type="text" placeholder="Phone Number">
-                        <input type="text" placeholder="Message">
-                        <!-- button-->
-                        <button type="button" class="btn btn-md text-start">Send</button>
-                    </div>
+                    <form class="col-10 text-start">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address">
+
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn mt-3">Send</button>
+                    </form>
                 </div>
+
             </div>
         </section>
     </main>
